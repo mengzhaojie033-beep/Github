@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest --coverage",
     "test:watch": "jest --watchAll",
+    "coverage": "jest --coverage",
     "start": "node server.js",
     "start:watch": "nodemon server.js"
   },
@@ -25,4 +26,5 @@
     "jest": "^26.0.1",
     "supertest": "^4.0.2"
   }
+  
 }
